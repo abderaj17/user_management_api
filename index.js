@@ -4,6 +4,10 @@ const app = express();
 
 app.use(express.json());
 
+
+
+const dburi = "";
+
 app.listen(3000, ()=>{
     console.log('Server is running on PORT 3000');
 })
@@ -20,3 +24,8 @@ app.post("/createAccount", (req, res)=>{
    res.status(201).send("User Create Successfully");
 })
 
+app.post("/login", (req, res)=>{
+    const user = req.body;
+    console.log(user);
+    res.status(200).send("User Logged In Successfully");
+})

@@ -5,3 +5,8 @@ Server, along with API, and DB operations
 Data Validation
 
 MVC Architecture -> Scalability
+
+
+data for createaccount , login , route
+
+ 
